@@ -1,0 +1,215 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "epstein lab",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel this"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "placeholderIntent",
+          "slots": [],
+          "samples": [
+            "placeholder."
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "large"
+              }
+            },
+            {
+              "name": {
+                "value": "medium"
+              }
+            },
+            {
+              "name": {
+                "value": "small"
+              }
+            },
+            {
+              "name": {
+                "value": "fluid ounce"
+              }
+            },
+            {
+              "name": {
+                "value": "bottle"
+              }
+            },
+            {
+              "name": {
+                "value": "serving",
+                "synonyms": [
+                  "servings",
+                  "serving size"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "piece",
+                "synonyms": [
+                  "pieces"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "slice",
+                "synonyms": [
+                  "slices"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "plate",
+                "synonyms": [
+                  "plates"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "can",
+                "synonyms": [
+                  "cans"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "glass",
+                "synonyms": [
+                  "glasses"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "handful",
+                "synonyms": [
+                  "handfuls"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "liter",
+                "synonyms": [
+                  "liters"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "gram",
+                "synonyms": [
+                  "grams"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "pound",
+                "synonyms": [
+                  "pounds"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "gallon",
+                "synonyms": [
+                  "gallons"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "quart",
+                "synonyms": [
+                  "quarts"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ounce",
+                "synonyms": [
+                  "ounces"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "pint",
+                "synonyms": [
+                  "pints"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "cup",
+                "synonyms": [
+                  "cups"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "teaspoon",
+                "synonyms": [
+                  "teaspoons"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tablespoon",
+                "synonyms": [
+                  "tablespoons"
+                ]
+              }
+            }
+          ],
+          "name": "servingUnit"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "12"
+}
